@@ -1,0 +1,47 @@
+{
+  "name": "axios-decorators",
+  "version": "1.0.2",
+  "author": "Berkay Yildiz",
+  "description": "It is an HTTP client library that uses Axios and JavaScript decorators. It is inspired by the popular Android library Retrofit.",
+  "main": "dist/index.js",
+  "keywords": [
+    "axios",
+    "decorators",
+    "babel",
+    "rest",
+    "api"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FriendsOfReact/axios-decorators"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "plugins": [
+      "flowtype"
+    ]
+  },
+  "scripts": {
+    "build": "babel src/ -d dist && cp ./src/index.d.ts ./dist/index.d.ts && cp ./src/libDef.js ./dist/libDef.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0"
+  },
+  "peerDependencies": {
+    "axios": "^0.19.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-flow": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "flow-bin": "^0.116.1",
+    "jest": "^25.1.0",
+    "standard": "^14.3.1"
+  }
+}

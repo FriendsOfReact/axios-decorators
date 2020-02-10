@@ -1,0 +1,6 @@
+export { get } from './get'
+export { post } from './post'
+export { put } from './put'
+export { patch } from './patch'
+export { del } from './del'
+export { client } from './client'

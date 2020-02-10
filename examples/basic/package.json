@@ -1,0 +1,29 @@
+{
+  "name": "axios-decorators-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ -d dist"
+  },
+  "author": "Berkay Yildiz",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "axios-decorators": "1.0.2",
+    "regenerator": "^0.14.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-flow": "^7.8.3",
+    "babel-eslint": "^10.0.3",
+    "eslint-plugin-flowtype": "^4.6.0",
+    "flow-bin": "^0.116.1",
+    "jest": "^25.1.0",
+    "standard": "^14.3.1"
+  }
+}
