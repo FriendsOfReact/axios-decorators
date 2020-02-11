@@ -1,6 +1,6 @@
 {
   "name": "axios-decorators",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "author": "Berkay Yildiz",
   "description": "It is an HTTP client library that uses Axios and JavaScript decorators. It is inspired by the popular Android library Retrofit.",
   "main": "dist/index.js",
